@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="App Escolar"
+        android:textColor="@color/purple_200"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:text="Nome:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/txtDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNome"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Disciplina:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDisc"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/txtNuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDisc"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Número de aulas:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNuma"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/txtNumf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNuma"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Número de faltas:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNumf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumf"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/txtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNumf"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Nota 1:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNota1"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/txtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNota1"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Nota 2:"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNota2"
+        android:gravity="left"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/purple_200"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnResul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNota2"
+        android:gravity="center"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Resultados"
+        android:textColor="@color/black"
+        android:textSize="30sp"></Button>
+
+    <Button
+        android:id="@+id/btnLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnResul"
+        android:gravity="center"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Limpar"
+        android:textColor="@color/black"
+        android:textSize="30sp"></Button>
+
+</RelativeLayout>
